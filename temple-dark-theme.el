@@ -58,7 +58,7 @@
    `(font-lock-comment-face ((,class (:foreground ,temple-green))))
    `(font-lock-constant-face ((,class (:foreground ,temple-br-magenta))))
    ;; Function names: Black text on Light Grey bg provides high contrast (inverted style)
-   `(font-lock-function-name-face ((,class (:foreground ,temple-black :background ,temple-light-grey :weight bold))))
+   `(font-lock-function-name-face ((,class (:foreground ,temple-grey :background ,temple-black :weight bold))))
    `(font-lock-keyword-face ((,class (:foreground ,temple-blue :weight bold))))
    `(font-lock-string-face ((,class (:foreground ,temple-red))))
    `(font-lock-type-face ((,class (:foreground ,temple-brown :weight bold))))
@@ -73,7 +73,7 @@
    ;; --- Line Numbering ---
    `(line-number ((,class (:foreground ,temple-blue :background ,temple-black))))
    ;; Highlight current line number with white bg/blue fg for focus
-   `(line-number-current-line ((,class (:foreground ,temple-br-blue :background ,temple-white :weight bold))))))
+   `(line-number-current-line ((,class (:foreground , temple-white :background ,temple-black :weight bold))))))
 
 ;;;###autoload
 (and load-file-name
