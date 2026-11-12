@@ -60,7 +60,7 @@
    ;; Function names: Black text on Light Grey bg provides high contrast (inverted style)
    `(font-lock-function-name-face ((,class (:foreground ,temple-grey :background ,temple-black :weight bold))))
    `(font-lock-keyword-face ((,class (:foreground ,temple-blue :weight bold))))
-   `(font-lock-string-face ((,class (:foreground ,temple-red))))
+   `(font-lock-string-face ((,class (:foreground ,temple-br-red))))
    `(font-lock-type-face ((,class (:foreground ,temple-brown :weight bold))))
    `(font-lock-variable-name-face ((,class (:foreground ,temple-white))))
    `(font-lock-warning-face ((,class (:foreground ,temple-br-red :background ,temple-yellow :weight bold))))
