@@ -58,7 +58,7 @@
    `(font-lock-builtin-face ((,class (:foreground ,temple-br-blue :weight bold))))
    `(font-lock-comment-face ((,class (:foreground ,temple-green))))      ; Green comments (common in DOS)
    `(font-lock-constant-face ((,class (:foreground ,temple-br-magenta))))
-   `(font-lock-function-name-face ((,class (:foreground ,temple-black :background ,temple-light-grey :weight bold))))
+   `(font-lock-function-name-face ((,class (:foreground ,temple-light-grey :background ,temple-black :weight bold))))
    `(font-lock-keyword-face ((,class (:foreground ,temple-blue :weight bold))))
    `(font-lock-string-face ((,class (:foreground ,temple-red))))         ; Strings in Red
    `(font-lock-type-face ((,class (:foreground ,temple-brown :weight bold))))
